@@ -20,6 +20,10 @@ class binarytree:
 	   they are Pre-order traversals,
 	   Post order traversals, In- order traversals. 	
 	'''
+	def left_child(node):
+		return	node.left
+	def right_child(node):
+		return node.right		
 	def preorder(self, start, string):
 		'''Root->Left Subtree->Right Subtree'''
 		if start:
